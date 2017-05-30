@@ -1,6 +1,6 @@
 var canvas = document.getElementById("Background");
 var ctx = canvas.getContext("2d");
-ctx.fillStyle = "Red";
+ctx.fillStyle = "#FF0000";
 ctx.fillRect(20, 0, 20, 100);
 /// 20, 0 to 20, 100 
 ctx.moveTo(20, 0);
