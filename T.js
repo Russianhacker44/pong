@@ -7,5 +7,10 @@ ctx.moveTo(20, 0);
 ctx.lineTo(20, 100);
 ctx.stroke();
 
+document.body.onkeyup = function(e){
+    if(e.keyCode == 32){
+        
+    }
+}
 
 
