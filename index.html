@@ -10,6 +10,10 @@
       }
     </style>
     <canvas id="Background" width="200" length="100" style="border:1px solid #000000 "; fill="Red";></canvas>
-     <script> </script>
+     <script> var c=document.getElementById("Background");
+var ctx=c.getContext("2d");
+ctx.fillStyle="#FF0000";
+ctx.fillRect(20,20,150,100);
+ </script>
   </body>
 </html>
